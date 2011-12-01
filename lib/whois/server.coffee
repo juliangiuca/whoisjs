@@ -17,7 +17,7 @@ class Serverdef
 
   find_for_tld: (domain) ->
     for definition in tlds
-      return definition if domain.match(definition[0] + "$")
+      return definition if domain.match(definition[0].replace(/\./g, '\\.') + "$")
 
   Serverdef.tlds = () ->
     _(tlds).map((ele) -> ele[0])
