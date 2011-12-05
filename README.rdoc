@@ -10,7 +10,7 @@ This library has been tested with Node.JS v0.4.12
 
 == How to Use
 
-  Whoisjs = require('whoisjs').whois;
+  Whoisjs = require('whoisjs').whois
 
   who = new Whoisjs()
   domain = "google.fr"
