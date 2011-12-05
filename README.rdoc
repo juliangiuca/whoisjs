@@ -30,5 +30,6 @@ WhoisJS is released under the MIT license.
 WhoisJS is inspired by {Ruby Whois}[https://github.com/weppos/whois]
 
 == Author
-{Julian Giuca}[mailto:whoisjs@eggandjam.com]
+{Julian Giuca}[mailto:whoisjs@eggandjam.com].
+
 Please feel free to contact me with any questions, tips, or suggestions.
