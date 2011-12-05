@@ -9,11 +9,10 @@ class Serverdef
     server = new Serverdef();
     server.find_for_tld(domain)
 
-  Serverdef.define_tld = (type, allocation, host, adapter) ->
-    if type == "tld"
-      adapter = adapter || new Standard
-      adapter.host = host
-      tlds.push([allocation, adapter])
+  Serverdef.define_tld = (allocation, host, adapter) ->
+    adapter = adapter || new Standard
+    adapter.host = host
+    tlds.push([allocation, adapter])
 
   find_for_tld: (domain) ->
     for definition in tlds
