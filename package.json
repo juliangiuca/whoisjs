@@ -1,11 +1,15 @@
 {
   "name": "whoisjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A whois client for Node",
   "main": "whoisjs.js",
+  "author": "Julian Giuca <localtoast@eggandjam.com>",
   "keywords": [
     "dns", "domain", "whois"
     ],
+  "dependencies": {
+    "underscore": "1.4.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://localtoast@github.com/localtoast/Whoisjs.git"
