@@ -5,7 +5,7 @@ A WHOIS module for Node.js written in CoffeeScript. WhoisJS is able to perform l
 == Requirements
 This library has been tested with Node.JS v0.4.12
 
-== How to Instal
+== How to Install
   $ npm install whoisjs
 
 == How to Use
