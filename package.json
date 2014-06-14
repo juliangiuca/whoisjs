@@ -1,9 +1,9 @@
 {
   "name": "whoisjs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A whois client for Node",
   "main": "whoisjs.js",
-  "author": "Julian Giuca <localtoast@eggandjam.com>",
+  "author": "Julian Giuca <whoisjs@eggandjam.com>",
   "keywords": [
     "dns", "domain", "whois"
     ],
