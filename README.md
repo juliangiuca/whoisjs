@@ -29,7 +29,7 @@ This library has been tested with Node.JS v0.4.12 and v0.10.26
 From the above, `response.raw` contains the response data from the Whois server. console.log it, and see what's happening.  
 
 The `lib/whois/server/adapters` files describe how the response is interpreted via the `positive()`, `negative()`, and `error()` functions.
-If you notice the responses aren't being registered correctly, please file and issue or send a pull request.
+If you notice the responses aren't being registered correctly, please file an issue or send a pull request, and it'll get fixed up!
 
 ## License
 WhoisJS is released under the MIT license.
